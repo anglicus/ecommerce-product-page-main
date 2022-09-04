@@ -1,0 +1,102 @@
+// _animations.scss
+@use "../abstracts/colors" as *;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fly-out {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    left: 0;
+    top: 0;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+    left: -120%;
+    top: 30%;
+  }
+}
+
+@keyframes fly-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+    left: 100%;
+    top: -30%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    left: 0%;
+    top: 0%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes grey-out {
+  from {
+    background-color: var(--hero-color);
+  }
+  to {
+    background-color: $darkGrey;
+  }
+}
+
+@keyframes color-in {
+  from {
+    background-color: $darkGrey;
+  }
+  to {
+    background-color: var(--hero-color);
+  }
+}
+
+:root {
+  --animation-speed: 1.5s;
+  --flyout-animation-speed: 1s;
+}
+
+.fading-in {
+  --fading-animation: fade-in forwards;
+}
+
+.fading-out {
+  --fading-animation: fade-out forwards;
+}
+
+.greying-out {
+  --coloring-animation: grey-out forwards;
+}
+
+.coloring-in {
+  --coloring-animation: color-in forwards;
+}

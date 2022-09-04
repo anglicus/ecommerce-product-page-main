@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+html {
+  font-size: 100%;
+}
+
+.typ--item-heading {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+@media (min-width: 1025px) {
+  .typ--item-heading {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+}
+.typ--description {
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+}
+@media (min-width: 1025px) {
+  .typ--description {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+}
+.typ--price {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.typ--discount {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.typ--old-price {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+}
+.typ--company {
+  font-size: 0.75rem;
+  letter-spacing: 1.85px;
+  font-weight: 700;
+}
+@media (min-width: 1025px) {
+  .typ--company {
+    font-size: 0.8125rem;
+    letter-spacing: 2px;
+  }
+}
+.typ--menu-item {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+}
+@media (min-width: 1025px) {
+  .typ--menu-item {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+.typ--cart-heading {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.typ--cart-item {
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+.typ--cart-price {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+}/*# sourceMappingURL=index.css.map */
