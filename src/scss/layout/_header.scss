@@ -4,4 +4,18 @@
 @use "../abstracts/mixins" as *;
 
 .header {
+  padding: 19px 24px 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__avatar {
+    height: 24px;
+  }
+
+  & .closed {
+    display: none;
+  }
 }
